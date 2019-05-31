@@ -1,0 +1,83 @@
+/*General styles*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; 
+  width: 100%;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+/* Header-nav */
+ li {
+ display: inline-block;
+}
+
+.nav-left {
+  float: left;
+  margin: 0 15px;
+}
+.nav-right {
+  float: right;
+  margin: 0 15px;
+}
+
+header {
+  clear: both;
+}
+
+/* Main-title*/
+.core {
+  text-align: center;
+}
+
+.main-title {
+  padding-top: 200px;
+  margin: 10px;
+  font-size: 90px;
+}
+/*Search bar*/
+.input {
+  width: 600px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+button {
+  height: 35px;
+  border-radius: 1px;
+  margin-right: 10px;
+}
+
+/* Footer */
+ nav footer  {
+   background: #BCBCBC;
+   width: 100%;
+   margin: 0 0 0 0;
+}
+a {
+  text-decoration: none;
+ 
+}
